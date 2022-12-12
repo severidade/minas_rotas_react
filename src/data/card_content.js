@@ -30,7 +30,6 @@ const CarouselItems = [
           item: "Contamos com a compreensão de todos. Vamos respeitar a indicação da OMS e fazer as atividades de forma segura e confortável."
         }
       ]
-      // list: [2, 3, 4, 5, 6, 7, 8, 9, 10 ]
     },
     {
       id: 3,
