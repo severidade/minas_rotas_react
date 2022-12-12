@@ -6,7 +6,7 @@ import Foto_03 from '../img/03.png';
 const CarouselItems = [
     {
       id: 1,
-      title: "O que levar", 
+      title: "O que <strong>levar</strong>", 
       picture: Foto_01,
       figure_caption: "Atletas",
       text: "Capacete, luvas, óculos, lanche básico, documentos, kit com ferramentas para pequenos reparos na bike, powerlink, câmera de ar, bomba, canivete pequeno, lanterna."
@@ -30,6 +30,7 @@ const CarouselItems = [
           item: "Contamos com a compreensão de todos. Vamos respeitar a indicação da OMS e fazer as atividades de forma segura e confortável."
         }
       ]
+      // list: [2, 3, 4, 5, 6, 7, 8, 9, 10 ]
     },
     {
       id: 3,
