@@ -6,19 +6,19 @@ import Foto_03 from '../img/03.png';
 const CarouselItems = [
     {
       id: 1,
-      title: "<a href='https://severidade.com.br/bhl/'>O que <strong>levar</strong></a>", 
+      title: "<a href='https://severidade.com.br/bhl/'>O que levar</a>", 
       picture: Foto_01,
       figure_caption: "Atletas",
       text: "Capacete, luvas, óculos, lanche básico, documentos, kit com ferramentas para pequenos reparos na bike, powerlink, câmera de ar, bomba, canivete pequeno, lanterna."
     },
     {
       id: 2,
-      title: "O que <i>levar<i>", 
+      title: "O que levar", 
       picture: Foto_02,
       figure_caption: "Atletas",
       list: [
         {
-          item: "Para não haver grandes aglomerações, limitamos à QUINZE o número ciclistas por passeio;"
+          item: "Para não haver grandes aglomerações, limitamos à <strong>QUINZE</strong> o número ciclistas por passeio;"
         },
         {
           item: "Durante o passeio manteremos distanciamento de segurança;"

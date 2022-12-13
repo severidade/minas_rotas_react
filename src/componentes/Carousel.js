@@ -15,7 +15,7 @@ class Carousel extends React.Component {
             <h1> { parse(card.title)}</h1>
             { card.list && (
               <ul>
-                { card.list.map( (list_element, index ) => <li key = { console.log(index) }>{ parse(list_element.item) }</li>) }
+                { card.list.map( (list_element, index ) => <li key = { index }>{ parse(list_element.item) }</li>) }
               </ul>
             )} <p>{card.text}</p> 
           </div>
