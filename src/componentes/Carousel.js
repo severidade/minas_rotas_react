@@ -17,7 +17,11 @@ class Carousel extends React.Component {
               <ul>
                 { card.list.map( (list_element, index ) => <li key = { index }>{ parse(list_element.item) }</li>) }
               </ul>
-            )} <p>{card.text}</p> 
+            )} <p>{card.text}</p>
+            <div className="img_conteiner">
+              <img src={`${card.picture}`} alt={`fundo ${card.title} `} />
+              <div>{ parse(card.figure_caption) }</div>
+            </div>
           </div>
         ))}
        </div>
