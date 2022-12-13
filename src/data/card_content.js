@@ -15,7 +15,7 @@ const CarouselItems = [
       id: 2,
       title: "O que levar", 
       picture: Foto_02,
-      figure_caption: "Atletas",
+      figure_caption: "<strong>01</strong> Atletas",
       list: [
         {
           item: "Para não haver grandes aglomerações, limitamos à <strong>QUINZE</strong> o número ciclistas por passeio;"
@@ -35,7 +35,7 @@ const CarouselItems = [
       id: 3,
       title: "Amet consectetur", 
       picture: Foto_03,
-      figure_caption: "Atletas",
+      figure_caption: "<strong>Fauna</strong> Atletas",
       text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia veniam provident odit doloremque accusantium cupiditate quo maiores maxime modi unde. Commodi pariatur eius architecto nobis ducimus. Molestiae quisquam fugiat ea!"
     },
 ]
