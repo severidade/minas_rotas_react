@@ -6,14 +6,14 @@ import Foto_03 from '../img/03.png';
 const CarouselItems = [
     {
       id: 1,
-      title: "O que <strong>levar</strong>", 
+      title: "<a href='https://severidade.com.br/bhl/'>O que <strong>levar</strong></a>", 
       picture: Foto_01,
       figure_caption: "Atletas",
       text: "Capacete, luvas, óculos, lanche básico, documentos, kit com ferramentas para pequenos reparos na bike, powerlink, câmera de ar, bomba, canivete pequeno, lanterna."
     },
     {
       id: 2,
-      title: "O que levar", 
+      title: "O que <i>levar<i>", 
       picture: Foto_02,
       figure_caption: "Atletas",
       list: [
