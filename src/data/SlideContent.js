@@ -6,16 +6,16 @@ import Foto_03 from '../img/03.png';
 const CarouselItems = [
     {
       id: 1,
-      title: "<a href='https://severidade.com.br/bhl/'>O que levar</a>", 
+      title: "O que levar", 
       picture: Foto_01,
-      figure_caption: "Atletas",
+      figure_caption: "<strong>Diversão</strong> garantida",
       text: "Capacete, luvas, óculos, lanche básico, documentos, kit com ferramentas para pequenos reparos na bike, powerlink, câmera de ar, bomba, canivete pequeno, lanterna."
     },
     {
       id: 2,
-      title: "O que levar", 
+      title: "Observações", 
       picture: Foto_02,
-      figure_caption: "<strong>01</strong> Atletas",
+      figure_caption: "<strong>Construções</strong> históricas", 
       list: [
         {
           item: "Para não haver grandes aglomerações, limitamos à <strong>QUINZE</strong> o número ciclistas por passeio;"
@@ -33,7 +33,7 @@ const CarouselItems = [
     },
     {
       id: 3,
-      title: "Amet consectetur", 
+      title: "<strong>Construções</strong> históricas", 
       picture: Foto_03,
       figure_caption: "<strong>Fauna</strong> Atletas",
       text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia veniam provident odit doloremque accusantium cupiditate quo maiores maxime modi unde. Commodi pariatur eius architecto nobis ducimus. Molestiae quisquam fugiat ea!"

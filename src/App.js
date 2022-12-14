@@ -1,5 +1,7 @@
+import './Reset.css';
 import './App.css';
-import Carousel from './componentes/Carousel';
+
+import Carousel from './componentes/Carousel/Carousel'
 
 function App() {
   return (
