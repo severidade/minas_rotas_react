@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;700&family=Volkhov:ital,wght@1,700&family=Work+Sans:wght@200;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@1,700&display=swap');
+
+
 .App {
   text-align: center;
 }
@@ -5,6 +9,12 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+p, li, a {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
