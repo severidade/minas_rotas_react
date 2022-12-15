@@ -15,7 +15,7 @@ const CarouselItems = [
       id: 2,
       title: "Observações", 
       picture: Foto_02,
-      figure_caption: "<strong>Construções</strong> históricas", 
+      figure_caption: "Construções<strong> históricas</strong> ", 
       list: [
         {
           item: "Para não haver grandes aglomerações, limitamos à <strong>QUINZE</strong> o número ciclistas por passeio;"
@@ -33,9 +33,9 @@ const CarouselItems = [
     },
     {
       id: 3,
-      title: "<strong>Construções</strong> históricas", 
+      title: "ipsum consectetur", 
       picture: Foto_03,
-      figure_caption: "<strong>Fauna</strong> Atletas",
+      figure_caption: "<strong>elit</strong> veniam",
       text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia veniam provident odit doloremque accusantium cupiditate quo maiores maxime modi unde. Commodi pariatur eius architecto nobis ducimus. Molestiae quisquam fugiat ea!"
     },
 ]
