@@ -2,19 +2,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@1,700&display=swap');
 
 
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h2 {
+  color: #00323f;
+  font-family: 'Work Sans', sans-serif;
+  text-transform: uppercase;
+  font-size: 25px;
+  margin-bottom: 12px;
 }
 
 p, li, a {
   font-family: 'Titillium Web', sans-serif;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 17px;
+}
+
+li > strong {
+  font-size: 15px;
 }
 
 @media (prefers-reduced-motion: no-preference) {

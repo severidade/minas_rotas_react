@@ -29,7 +29,8 @@ export default function Carousel() {
 						<div className='figure_caption'>{parse(item.figure_caption)}</div>
 					</div>
 					<div className="container_text">
-						<h1>{parse(item.title)}</h1>
+						<h2>{parse(item.title)}</h2>
+						<p className="posicao_item">{item.id}</p>
 						{item.list && (
 							<ul>
 								{item.list.map((list_element, index) => <li key={index}>{parse(list_element.item)}</li>)}
