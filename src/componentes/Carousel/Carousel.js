@@ -22,7 +22,7 @@ export default function Carousel() {
 
 	return (
 		<Slider settings={settings}>
-			{SlideContent?.map((item) => (
+			{SlideContent.CarouselItems?.map((item) => (
 				<Slide key={item.id}>
 					<div className="container_image">
 						<img src={`${item.picture}`} alt={`fundo ${item.title} `} />

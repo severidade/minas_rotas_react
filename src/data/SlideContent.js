@@ -2,8 +2,9 @@ import Foto_01 from '../img/01.png';
 import Foto_02 from '../img/02.png';
 import Foto_03 from '../img/03.png';
 
-
-const CarouselItems = [
+const Completo = {
+  
+  CarouselItems: [
     {
       id: 1,
       title: "O que levar", 
@@ -33,11 +34,23 @@ const CarouselItems = [
     },
     {
       id: 3,
-      title: "ipsum consectetur", 
+      title: "ipsum cons", 
       picture: Foto_03,
       figure_caption: "<strong>elit</strong> veniam",
       text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia veniam provident odit doloremque accusantium cupiditate quo maiores maxime modi unde. Commodi pariatur eius architecto nobis ducimus. Molestiae quisquam fugiat ea!"
     },
-]
+  ],
+  
+  casa: [
+    {
+      id: 3,
+      title: "ipsum consectetur", 
+      picture: Foto_03,
+      figure_caption: "<strong>elit</strong> veniam",
+      text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia veniam provident odit doloremque accusantium cupiditate quo maiores maxime modi unde. Commodi pariatur eius architecto nobis ducimus. Molestiae quisquam fugiat ea!"
+    }
+  ]
+  
+}
 
-export default CarouselItems; 
+export default Completo; 
