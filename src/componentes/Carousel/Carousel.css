@@ -5,21 +5,16 @@
 }
 
 .swiper-button-prev, .swiper-button-next {
-  border: solid 2px black;
+  border: solid 1px black;
   width: 40px;
   height: 40px;
   border-radius: 100%;
-}
-
-.swiper-button-prev  {
-  left: 10vw;
   top: calc(50vh + 40px);
 }
 
-.swiper-button-next  {  
-  left: calc(10vw + 60px);
-  top: calc(50vh + 40px);
-}
+.swiper-button-prev { left: 10vw; }
+
+.swiper-button-next { left: calc(10vw + 60px); }
 
 .swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
   content: 'prev';
@@ -33,15 +28,13 @@
   color: black;
 }
 
-
-.swiper-pagination-bullet-active {
-  background-color: #282c34;
-}
+.swiper-pagination-bullet-active { background-color: #282c34; }
 .container_image {
   width: 100%;
   height: 50vh;
   position: absolute;
   top: 0;
+  overflow: hidden;
 }
 
 .container_image > img {
@@ -74,9 +67,7 @@
   right: 40px;
 }
 
-.swiper-slide-active > .container_image > .figure_caption {
-  left: 0;
-}
+.swiper-slide-active > .container_image > .figure_caption { left: 0; }
 
 .container_text {
   opacity: 0;
@@ -106,8 +97,6 @@
   margin-left: -0.9em;
   border-radius: 50%;
   top: 0.5em
-
-
 }
 
 .swiper-slide-active > .container_text {
@@ -123,4 +112,49 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media only screen and (min-width: 1000px) {
+  .container_image {
+    width: 500px;
+    height: 500px;
+    position: inherit;
+    justify-self: flex-end;
+  }
+  .container_text {
+    /* background-color: #ef6c00; */
+    width: 500px;
+    height: 500px;
+    margin-top: inherit;
+    padding: 100px 0 0 100px;
+  }
+
+  .posicao_item {
+    left: 40px;
+    right: inherit;
+    font-size: 110px;
+  }
+
+  .swiper-horizontal > .swiper-pagination-bullets {
+    position: absolute;
+    /* border: solid 1px black; */
+    width: 1000px;
+    top: 620px;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+
+  .swiper-button-next, .swiper-button-prev {
+    left: inherit;
+    width: 50px;
+    height: 50px;
+    top: calc(60vh + 40px);
+  }
+  .swiper-button-next {
+    right: calc(10vw + 60px);
+  }
+
+  .swiper-button-prev {
+    right: calc(10vw + 130px);
+  }
 }
