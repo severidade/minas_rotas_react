@@ -1,0 +1,39 @@
+.container_route {
+  min-height: 10vh;
+    padding: 40px 20px 20px 20px;
+    padding-top: 64px;
+    
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #e6e0ba;
+  overflow: hidden;
+}
+
+
+.container_route_text, .container_map {
+  width: 80vw;
+}
+
+.container_route_text {
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.container_map {
+  height: 500px;
+}
+
+.container_map::before {
+  content: " ";
+  position: absolute;
+  width: 200%;
+  height: 100%;
+  background: #fff;
+  bottom: 0;
+  left: 0;
+  /* z-index: -1; */
+  transform: translate(-25%, 50%);
+}

@@ -1,5 +1,5 @@
 import { Slider, Slide } from '../Slider/Index'
-import SlideContent from '../../data/SlideContent'
+import Content from '../../data/Content'
 
 import './Carousel.css'
 
@@ -22,7 +22,7 @@ export default function Carousel() {
 
 	return (
 		<Slider settings={settings}>
-			{SlideContent.CarouselItems?.map((item) => (
+			{Content.CarouselItems?.map((item) => (
 				<Slide key={item.id}>
 					<div className="container_image">
 						<img src={`${item.picture}`} alt={`fundo ${item.title} `} />
