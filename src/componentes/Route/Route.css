@@ -37,3 +37,9 @@
   /* z-index: -1; */
   transform: translate(-25%, 50%);
 }
+
+.container_share {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
