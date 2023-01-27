@@ -20,8 +20,9 @@ export default function Route() {
         className='container_share'
       >
         <h3>Compartilhe</h3>
-        <ShareButton shareOnWhatsApp={true} link={Content.route.share} />
-        <ShareButton shareOnWhatsApp={false} link={Content.route.share} />
+        <ShareButton shareType={"whatsapp"} link={Content.route.share} />
+        <ShareButton shareType={"email"} link={Content.route.share} />
+        <ShareButton shareType={"wikiloc"} link={Content.route.share} />
       </div>
     </div>
 	)

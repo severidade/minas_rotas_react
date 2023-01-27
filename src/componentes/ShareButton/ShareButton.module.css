@@ -1,4 +1,6 @@
-.whatsapp_button , .wikiloc_button{
+.whatsapp_button,
+.wikiloc_button, 
+.email_button {
   background-color: black;
   width: 30px;
   height: 30px;
@@ -11,9 +13,13 @@
 }
 
 .whatsapp_button {
-  background-image: url("./img/icon_svg_whatsApp.svg");
+  background-image: url("./img/icon_whatsApp.svg");
 }
 
 .wikiloc_button {
-  background-image: url("./img/share-svgrepo-com.svg");
+  background-image: url("./img/icon_share.svg");
+}
+
+.email_button {
+  background-image: url("./img/icon_email.svg");
 }
