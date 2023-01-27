@@ -1,0 +1,69 @@
+.container_route {
+  min-height: 10vh;
+  padding: 64px 10vw 20px 10vw;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #e6e0ba;
+  overflow: hidden;
+}
+
+
+.container_route_text,
+.container_map,
+.container_share  {
+  width: 80vw;
+}
+
+.container_route_text {
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.container_map {
+  height: 500px;
+  width: 100%;
+}
+
+.container_map > div {
+  display: none;
+}
+
+.container_map::before {
+  content: " ";
+  position: absolute;
+  width: 200%;
+  height: 100%;
+  background: #fff;
+  bottom: 0;
+  left: 0;
+  /* z-index: -1; */
+  transform: translate(-25%, 50%);
+}
+
+.container_share {
+  display: flex;
+  background-color: black;
+  align-self: flex-end ;
+  height: 50px;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 20px;
+  padding: 0 20px;
+  width: 100%;
+  position: relative;
+}
+
+.container_share > h3 {
+  /* background-color: olive; */
+  line-height: 100%;
+  justify-self: start;
+  text-transform: uppercase;
+  font-family: 'Work Sans', sans-serif;
+  color: white;
+  font-size: 15px;
+  position: absolute;
+  left: 20px;
+}

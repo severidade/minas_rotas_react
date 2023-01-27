@@ -21,3 +21,10 @@ textarea:focus,
 input:focus {
   outline: none;
 }
+
+.button:focus,
+button:active,
+textarea:focus,
+input:focus {
+  outline: none;
+}

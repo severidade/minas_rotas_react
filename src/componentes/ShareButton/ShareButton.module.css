@@ -1,0 +1,19 @@
+.whatsapp_button , .wikiloc_button{
+  background-color: black;
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+  text-indent: -1000px;
+  background-size: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: none;
+}
+
+.whatsapp_button {
+  background-image: url("./img/icon_svg_whatsApp.svg");
+}
+
+.wikiloc_button {
+  background-image: url("./img/share-svgrepo-com.svg");
+}

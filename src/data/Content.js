@@ -41,16 +41,20 @@ const Completo = {
     },
   ],
   
-  casa: [
-    {
-      id: 3,
-      title: "ipsum consectetur", 
-      picture: Foto_03,
-      figure_caption: "<strong>elit</strong> veniam",
-      text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia veniam provident odit doloremque accusantium cupiditate quo maiores maxime modi unde. Commodi pariatur eius architecto nobis ducimus. Molestiae quisquam fugiat ea!"
-    }
-  ]
-  
+  route:{
+    title: 'Conheça e baixe a rota', 
+    map: '<iframe frameBorder="0" scrolling="no" src="https://pt.wikiloc.com/wikiloc/spatialArtifacts.do?event=view&id=68903740&measures=off&title=off&near=off&images=off&maptype=H" width="100%" height="100%"></iframe><div style="color:#777;font-size:11px;line-height:16px;">Powered by <a style="color:#06d;font-size:11px;line-height:16px;" target="_blank" href="https://pt.wikiloc.com">Wikiloc</a></div>',
+    text: 'Etiam ut lacus vel lectus imperdiet scelerisque vel ornare sem. In nec massa justo. Pellentesque id ligula non quam auctor pulvinar. Praesent eleifend sodales sollicitudin.',
+    share: 'https://pt.wikiloc.com/trilhas-mountain-bike/serra-do-cachimbo-pelo-barreiro-68903740#',
+    // share: [
+    //   {
+    //     whatsapp: '<a href="whatsapp://send?text=Confira essa rota. Ela é a nossa cara. Partiu pedal 🚲 !!! https://pt.wikiloc.com/trilhas-mountain-bike/serra-do-cachimbo-pelo-barreiro-68903740" class="botao-wpp" data-action="share/whatsapp/share">Compartilhe no whatsapp</a>'
+    //   },
+    //   {
+    //     email: '<a href="mailto:?subject=Confira essa rota. Ela é a nossa cara. Partiu pedal 🚲 !!!&amp;body=Check out this site https://pt.wikiloc.com/trilhas-mountain-bike/serra-do-cachimbo-pelo-barreiro-68903740." title="Share by Email">Compartilhe no e-mail</a>'
+    //   }
+    // ]
+  }
 }
 
 export default Completo; 
