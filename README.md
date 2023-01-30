@@ -11,3 +11,8 @@ Instalei o html react parser para transformar as tags html contidas na  string
 
 Instalação do Swiper
 <code> $ npm install swiper</code>
+
+Instalei o React Helmet
+
+<code>npm install --save react-helmet</code>
+Este componente React reutilizável gerenciará todas as suas alterações no cabeçalho do documento.
