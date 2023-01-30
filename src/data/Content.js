@@ -3,6 +3,7 @@ import Foto_02 from '../img/02.png';
 import Foto_03 from '../img/03.png';
 
 const Completo = {
+  
   CarouselItems: [
     {
       id: 1,
@@ -53,12 +54,6 @@ const Completo = {
     //     email: '<a href="mailto:?subject=Confira essa rota. Ela é a nossa cara. Partiu pedal 🚲 !!!&amp;body=Check out this site https://pt.wikiloc.com/trilhas-mountain-bike/serra-do-cachimbo-pelo-barreiro-68903740." title="Share by Email">Compartilhe no e-mail</a>'
     //   }
     // ]
-  },
-
-  headDescription: {
-    title:"Cachoeira do santo antônio",
-    description: "Embarque em uma jornada única pelas trilhas de Minas Gerais e descubra a beleza da Cachoeira de Santo Antonio, além de visitar lugares históricos e conhecer a rica cultura da região.",
-    image: Foto_01,
   }
 }
 
