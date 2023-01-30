@@ -3,12 +3,14 @@ import './App.css';
 
 import Carousel from './componentes/Carousel/Carousel';
 import Route from './componentes/Route/Route';
+import Head from './componentes/Head/Head';
 
 function App() {
   return (
     <div className="App">
-     <Carousel />
-     <Route />
+      <Head />
+      <Carousel />
+      <Route />
     </div>
   );
 }
