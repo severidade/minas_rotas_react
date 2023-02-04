@@ -2,6 +2,14 @@ import Foto_01 from '../img/01.png';
 import Foto_02 from '../img/02.png';
 import Foto_03 from '../img/03.png';
 
+import Avatar_01 from '../img/avatar_01.png';
+import Avatar_02 from '../img/avatar_02.png';
+import Avatar_03 from '../img/avatar_03.png';
+import Avatar_04 from '../img/avatar_04.png';
+import Avatar_05 from '../img/avatar_05.png';
+
+import Hero_image from '../img/hero_image.png'
+
 const Completo = {
   
   CarouselItems: [
@@ -54,6 +62,67 @@ const Completo = {
     //     email: '<a href="mailto:?subject=Confira essa rota. Ela é a nossa cara. Partiu pedal 🚲 !!!&amp;body=Check out this site https://pt.wikiloc.com/trilhas-mountain-bike/serra-do-cachimbo-pelo-barreiro-68903740." title="Share by Email">Compartilhe no e-mail</a>'
     //   }
     // ]
+  },
+
+  hero: {
+    route_img:{
+      img: Hero_image,
+      alt: "Veículo abandonado em trilha é transformado em tela com um grafite. Obra retrata um peixe azul com listras brancas e uma auréola de anjo.",
+    },
+    route_title: "Cachoeira do Santo Antônio",
+    route_data: [
+      {
+        tooltip: "Distância percorrida",
+        data: "31,9 km",
+      },
+      {
+        tooltip: "Desnível acumulado subida",
+        data: "400 m",
+      },
+      {
+        tooltip: "Desnível acumulado descida",
+        data: "400 km",
+      },
+      {
+        tooltip: "Dificuldade técnica",
+        data: "400 km",
+      },
+      {
+        tooltip: "Termina no ponto de partida",
+        data: "sim",
+      },
+      {
+        tooltip: "Desnível máximo",
+        data: "829 m",
+      },
+      {
+        tooltip: "Desnível mínimo",
+        data: "684 m",
+      },
+    ],
+    about:"<p>A Rota de Bicicleta que termina na Cachoeira do Santo Antônio é uma opção perfeita para aqueles que procuram aventura e contato com a natureza. Percorrendo trilhas de terra e estradas rurais, os ciclistas podem desfrutar de paisagens incríveis e desafiantes. A chegada à cachoeira é a recompensa perfeita para a jornada, oferecendo uma vista espetacular da queda d'água e a oportunidade de relaxar na piscina natural. <strong>Se você procura uma experiência única e emocionante, não perca a chance de experimentar a Rota de Bicicleta que termina na Cachoeira do Santo Antônio</strong>.</p>",
+    participants: [
+      {
+        name: "João Silva",
+        avatar: Avatar_01,
+      },
+      {
+        name: "Maria Rodrigues",
+        avatar: Avatar_02,
+      },
+      {
+        name: "Pedro Santos",
+        avatar: Avatar_03,
+      },
+      {
+        name: "Ana Oliveira",
+        avatar: Avatar_04,
+      },
+      {
+        name: "Juliana Ferreira",
+        avatar: Avatar_05,
+      },
+    ],
   }
 }
 
