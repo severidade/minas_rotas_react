@@ -9,6 +9,7 @@ import Avatar_04 from '../img/avatar_04.png';
 import Avatar_05 from '../img/avatar_05.png';
 
 import Hero_image from '../img/hero_image.png'
+import Hero_icon from '../img/icone_mtbk.svg'
 
 const Completo = {
   
@@ -70,6 +71,12 @@ const Completo = {
       alt: "Veículo abandonado em trilha é transformado em tela com um grafite. Obra retrata um peixe azul com listras brancas e uma auréola de anjo.",
     },
     route_title: "Cachoeira do Santo Antônio",
+
+    heder_data_route:{
+      type_of_route: "Ciclismo de estrada",
+      type_of_route_icon: Hero_icon,
+      level: "Nível iniciante"
+    },
     route_data: [
       {
         tooltip: "Distância percorrida",
@@ -85,10 +92,10 @@ const Completo = {
       },
       {
         tooltip: "Dificuldade técnica",
-        data: "400 km",
+        data: "Fácil",
       },
       {
-        tooltip: "Termina no ponto de partida",
+        tooltip: "Rota Cicular",
         data: "sim",
       },
       {
@@ -100,7 +107,7 @@ const Completo = {
         data: "684 m",
       },
     ],
-    about:"<p>A Rota de Bicicleta que termina na Cachoeira do Santo Antônio é uma opção perfeita para aqueles que procuram aventura e contato com a natureza. Percorrendo trilhas de terra e estradas rurais, os ciclistas podem desfrutar de paisagens incríveis e desafiantes. A chegada à cachoeira é a recompensa perfeita para a jornada, oferecendo uma vista espetacular da queda d'água e a oportunidade de relaxar na piscina natural. <strong>Se você procura uma experiência única e emocionante, não perca a chance de experimentar a Rota de Bicicleta que termina na Cachoeira do Santo Antônio</strong>.</p>",
+    about:"Esta rota é uma opção perfeita para aqueles que procuram aventura e contato com a natureza. Percorrendo trilhas de terra e estradas rurais, os ciclistas podem desfrutar de paisagens incríveis e desafiantes.",
     participants: [
       {
         name: "João Silva",
