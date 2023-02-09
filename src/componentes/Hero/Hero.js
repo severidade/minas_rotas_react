@@ -56,8 +56,23 @@ export default function Hero() {
         <p> {parse(Content.hero.about)} </p>
       </div>
 
-      <div class="group">
+      <div className={ styles.group }>
         <h3>Participantes confirmados</h3>
+        <div className={ styles.container_participants }>
+          {Content.hero.participants?.map((item) =>(
+            <div 
+              key={item.name} 
+              tooltip-text={item.name}
+              // className={ styles.tooltip }
+            >
+              <figure className= { styles.avatar }>
+                <img src={ item.avatar } alt={ item.name }/>
+              </figure>
+            </div>
+          ))}
+          <button className={ styles.participate } type="button">Quero Participar</button>
+        </div>
+        <p>Grupo de no máximo <strong>15 ciclistas</strong></p>
       </div>
       
     </section>
