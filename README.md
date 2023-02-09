@@ -1,13 +1,14 @@
-# minas_rotas_react
+# Agência de Cicloturismo em Minas Gerais
 
-A ideia deste trabalho é desenvolver uma Landing Page em react para divulgação de um roteiro turístico para ciclistas
-
-Como recurso adicional implemento um slider usando a biblioteca do Swiper
+Esse é um projeto criado com o objetivo de apresentar pacotes de cicloturismo em Minas Gerais de uma agência fictícia. O projeto foi desenvolvido usando React e tem como objetivo ser uma plataforma de apresentação desses pacotes.
 
 
 ## Dependências 
 Instalei o html react parser para transformar as tags html contidas na  string
 <code> $ npm install html-react-parser --save </code>
 
-Instalação do Swiper
+### Swiper
+
+Este projeto utiliza a dependência Swiper, um framework de carrossel de conteúdo para dispositivos móveis e desktop. A versão atual utilizada pode ser encontrada no arquivo package.json.
+
 <code> $ npm install swiper</code>
