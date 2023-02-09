@@ -19,7 +19,7 @@ export default function Hero() {
           src={ Content.hero.route_img.img } 
           alt={ Content.hero.route_img.alt }
         />
-        <figcaption><strong>Cidades</strong> Corinto/Diamantina</figcaption>
+        {/* <figcaption><strong>Cidades</strong> Corinto/Diamantina</figcaption> */}
       </figure>
 
       <div className={ styles.data_rote }>
@@ -60,14 +60,13 @@ export default function Hero() {
         <h3>Participantes confirmados</h3>
         <div className={ styles.container_participants }>
           {Content.hero.participants?.map((item) =>(
-            <div 
-              key={item.name} 
-              tooltip-text={item.name}
-              // className={ styles.tooltip }
-            >
-              <figure className= { styles.avatar }>
+            <div key={item.name}>
+              <figure 
+              className= { styles.avatar }
+              >
                 <img src={ item.avatar } alt={ item.name }/>
               </figure>
+              <p className={ styles.participant_name }> {item.name} </p>
             </div>
           ))}
           <button className={ styles.participate } type="button">Quero Participar</button>

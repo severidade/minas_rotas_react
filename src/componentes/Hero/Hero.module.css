@@ -66,9 +66,9 @@
   object-fit: cover;
 }
 
-.container_main_image > figcaption {
+/* .container_main_image > figcaption {
   display: none;
-}
+} */
 
 /* seção com informações da rota */
 .data_rote {
@@ -251,7 +251,7 @@
 .group > p {
   /* background-color: #00323F; */
   text-align: center;
-  padding: 10px 0;
+  padding: 5px 0 10px;
   font-size: 14px;
 }
 
@@ -309,10 +309,16 @@
 .participate {
   font-family: 'Vollkorn', serif;
   font-size: 12px;
-  line-height: 13px;
+  line-height: 14px;
   width: 70px;
   height: 70px;
   position: relative;
   border-radius: 6px;
   border: none;
+}
+
+.participant_name {
+  font-size: 13px;
+  line-height: 14px;
+  padding: 10px 0 10px 7px;
 }
