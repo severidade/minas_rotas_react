@@ -310,9 +310,7 @@
   font-family: 'Vollkorn', serif;
   font-size: 12px;
   line-height: 13px;
-  /* border: solid 1px var(--dark_collor); */
-
-    width: 70px;
+  width: 70px;
   height: 70px;
   position: relative;
   border-radius: 6px;
