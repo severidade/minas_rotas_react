@@ -4,15 +4,42 @@
 body {
   --dark_collor: #00323F;
 
+   /*Secundária*/
+   --cor_secundaria: #ef6c00;
+   --cor_secundaria_light: #ff9d3f;
+   --cor_secundaria_dark: #b53d00;
+
+   /*Complementares*/
+   --cor_complementar_01: #E6E0BA;
+   --cor_complementar_02: #EBC08A;
+   --cor_complementar_03: #CC7C53;
+
+   /*grid*/
+   --grid_3colunas_UmaColuna: calc(100% * 1/3);
+   --grid_3colunas_DuasColunas: calc(100% * 2/3);
+
+  /*tamanho */
+  --largura_conteiner_principal_mobile: 80%;
+  --largura_conteiner_principal: 90%;
+  --largura_conteiner_principal_grande: 75%;
+
   font-family: 'Titillium Web', sans-serif;
   color: var(--dark_collor);
 }
 
+h1 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 200;
+  text-transform: uppercase;
+  font-size: 42px;
+  padding-bottom: 20px;
+}
+
 h2 {
-  color: #00323f;
+  color: var(--cor_primaria);
   font-family: 'Work Sans', sans-serif;
   text-transform: uppercase;
-  font-size: 25px;
+  font-size: 20px;
   margin-bottom: 12px;
 }
 
