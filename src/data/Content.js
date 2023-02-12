@@ -137,7 +137,7 @@ const Completo = {
     // ]
   },
 
-  price:{
+  rate:{
     text:'Neste passeio vamos pedalar pelas trilhas de Sabará e nele esta incluso o BikerGuia com GPS e rádio, apoio mecânico e seguro para danos pessoais dos participantes. O local de partida será divulgado com antecedência e cada ciclista deverá chegar com o seu próprio carro.',
     value:"<em>50</em><span>00</span>", 
     options: [

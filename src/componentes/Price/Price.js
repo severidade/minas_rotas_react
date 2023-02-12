@@ -5,13 +5,13 @@ const parse = require('html-react-parser');
 
 export default function Price() {
   return (
-    <section className={ styles.section_investment }>
+    <section className={ styles.rates_container }>
       <h1>Investimento</h1>
-      <p>{ Content.price.text } </p>
-      <p className={ styles.option__price }>{ parse(Content.price.value) }</p>
-      <h2 className={ styles.section_investment__options } >opcionais</h2>
+      <p>{ Content.rate.text } </p>
+      <p className={ styles.option__price }>{ parse(Content.rate.value) }</p>
+      <h2 className={ styles.rates_container__options } >serviços opcionais</h2>
       <ul>
-        { Content.price.options.map((item) =>(
+        { Content.rate.options.map((item) =>(
           <li 
             key={item.option}
             className= { styles.option }
@@ -30,7 +30,6 @@ export default function Price() {
           </li>
         ))}
       </ul>
-      <p>{ Content.price.cta_phrase } </p>
     </section>
   )
 }
