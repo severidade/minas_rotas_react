@@ -4,7 +4,7 @@ import './App.css';
 import Carousel from './componentes/Carousel/Carousel';
 import Route from './componentes/Route/Route';
 import Hero from './componentes/Hero/Hero';
-import Price from './componentes/Price/Price';
+import Rates from './componentes/Rates/Rates';
 
 function App() {
   return (
@@ -12,7 +12,8 @@ function App() {
       <Hero />
       <Carousel />
       <Route />
-      <Price />
+      <Rates />
+      
     </div>
   );
 }

@@ -1,73 +1,28 @@
-.rates_container{
-  width: var(--largura_conteiner_principal_mobile);
-  margin: auto;
-  padding-top: 40px;
-}
-
-.rates_container__options {
-  width: 100%;
-  padding-bottom: 10px;
-  border-bottom: 1px dotted #C4C4C4;
-  padding-top: 40px;
-}
-
-.option {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  padding-top: 20px;
-}
-
-.option__title {
-  font-family: 'Volkhov', serif;
-  font-weight: 700;
-  font-size: 25px;
-  font-style: italic;
-  width: 100%;
-  text-align: center;
-}
-
-.option__icon {
-  width: 80px;
-  height: 80px;
-  margin: 0 20px 0 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.icon__img {
-  object-fit: contain;
-  width: 80%;
-  height: 80%;
-}
-
-.option__price {
+.price {
   font-family: 'Vollkorn', serif;
   color: var(--cor_secundaria);
   font-weight: 700;
   display: flex;
-}
-
-.option__price > em {
   font-size: 53px;
 }
 
-.option__price  > em::before {
-  content: "R$";
-  font-size: 20px;
-  padding-right: 5px;
-  top: 6px;
+.price.highlight {
+  font-size: 89px;
+  justify-content: center;
 }
 
-.option__price  > em::after {
+.price  > em::before {
+  content: "R$";
+  font-size: 0.3em;
+  padding-right: 0.4em;
+  top: 0.5em;
+}
+
+.price  > em::after {
   content: ",";
 }
 
-.option__price  > span {
-  font-size: 20px;
-  top:11px
+.price  > span {
+  font-size: 0.4em;
+  top:0.8em
 }
