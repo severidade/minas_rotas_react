@@ -10,7 +10,7 @@ export default function Rates() {
       <h1>Investimento</h1>
       <p>{ Content.rate.text } </p>
       <Price type="highlight" value= { parse(Content.rate.value) }/>
-      <h2 className={ styles.rates_container__options } >Opções</h2>
+      <h2 className={ styles.rates_container__options } >Serviços Opcionais</h2>
       <ul>
         { Content.rate.options.map((item) =>(
           <li 
