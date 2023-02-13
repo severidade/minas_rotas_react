@@ -1,0 +1,28 @@
+.price {
+  font-family: 'Vollkorn', serif;
+  color: var(--cor_secundaria);
+  font-weight: 700;
+  display: flex;
+  font-size: 50px;
+}
+
+.price.highlight {
+  font-size: 70px;
+  justify-content: center;
+}
+
+.price  > em::before {
+  content: "R$";
+  font-size: 0.3em;
+  padding-right: 0.4em;
+  top: 0.5em;
+}
+
+.price  > em::after {
+  content: ",";
+}
+
+.price  > span {
+  font-size: 0.4em;
+  top:0.8em
+}
