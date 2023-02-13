@@ -6,6 +6,7 @@ import Route from './componentes/Route/Route';
 import Hero from './componentes/Hero/Hero';
 import Rates from './componentes/Rates/Rates';
 import CallToAction from './componentes/CallToAction/CallToAction';
+import VideoSection from './componentes/VideoSection/VideoSection';
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
       <Route />
       <Rates />
       <CallToAction />
-      
+      <VideoSection />
     </div>
   );
 }
