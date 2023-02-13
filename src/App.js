@@ -5,6 +5,7 @@ import Carousel from './componentes/Carousel/Carousel';
 import Route from './componentes/Route/Route';
 import Hero from './componentes/Hero/Hero';
 import Rates from './componentes/Rates/Rates';
+import CallToAction from './componentes/CallToAction/CallToAction';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Carousel />
       <Route />
       <Rates />
+      <CallToAction />
       
     </div>
   );

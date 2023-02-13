@@ -4,6 +4,11 @@
 body {
   --dark_collor: #00323F;
 
+  /*Primaria*/
+  --cor_primaria:  #00323F;
+  --cor_primaria_light: #335b6a;
+  --cor_primaria_dark: #000b19;
+
    /*Secundária*/
    --cor_secundaria: #ef6c00;
    --cor_secundaria_light: #ff9d3f;
