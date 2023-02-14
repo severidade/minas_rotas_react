@@ -6,13 +6,7 @@
   background-color: aqua;
 }
 
-.container_VideoSection__VideoBg {
-  position: absolute;
-  object-position: top;
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
-}
+
 
 .conteiner__highlight {
   width: var(--largura_conteiner_principal_mobile);
