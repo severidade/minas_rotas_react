@@ -5,11 +5,17 @@ import Content from '../../data/Content';
 import VideoSectionBG from "../VideoSectionBg/VideoSectionBg";
 
 export default function VideoSection() {
+  const {
+    container_VideoSection,
+    container__highlight,
+    highlight__phrase
+  } = styles;
+
   return (
-    <section className={ styles.container_VideoSection}>
+    <section className={ container_VideoSection }>
       <VideoSectionBG src={ Content.videoSection.videoBg } poster= { Content.videoSection.videoFrame }/>
-      <div className= { styles.conteiner__highlight }>
-        <p className={ styles.conteiner__highlight__phrase }> { Content.videoSection.phrase }</p>
+      <div className= { container__highlight }>
+        <p className={ highlight__phrase }> { Content.videoSection.phrase }</p>
       </div>
     </section>
   )
