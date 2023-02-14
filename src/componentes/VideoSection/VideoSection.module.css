@@ -1,0 +1,34 @@
+.container_VideoSection {
+  width: 100%;
+  height: 440px;
+  position: relative;
+  overflow: hidden;
+  background-color: aqua;
+}
+
+
+
+.container__highlight {
+  width: var(--largura_conteiner_principal_mobile);
+  /* border: solid black; */
+  min-height: 10vh;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px 0;
+  margin: auto;
+}
+
+.highlight__phrase {
+  font-family: 'Vollkorn', serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 40px;
+  color: #fff;
+  /* z-index: 2; */
+  /* position: relative; */
+  text-shadow: 1px 1px 5px black;
+  line-height: 1.1;
+  letter-spacing: 1px;
+}
