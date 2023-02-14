@@ -16,6 +16,9 @@ import shirt_icon from '../img/icon/camisa_icon.svg';
 import bike from '../img/icon/bicicleta_icon.svg';
 import mask from '../img/icon/mascara_icon.svg';
 
+import video from '../video/video.mp4';
+import videoFrame from '../video/frame.jpg';
+
 const Completo = {
   
   hero: {
@@ -166,6 +169,12 @@ const Completo = {
 
   cta:{
     cta_phrase: "Pedalar é só o começo da história. Nada é comparável a satisfação de perceber que é possível “chegar lá” sem precisar de um carro.",
+  },
+
+  videoSection:{
+    phrase:"Venha se divertir com a gente explorando as trilhas de minas",
+    videoBg: video,
+    videoFrame: videoFrame,
   }
 
 }
