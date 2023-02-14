@@ -3,10 +3,11 @@ import React from "react";
 import styles from './VideoSectionBg.module.css';
 
 export default function VideoSectionBG({ src, poster }) {
+  const { container_VideoSection, VideoBg } = styles;
   return (
-    <div className= {styles.container_VideoSection}>
+    <div className= { container_VideoSection }>
       <video 
-        className={ styles.VideoBg }
+        className={ VideoBg }
         poster= {poster}
         autoPlay
         muted
@@ -16,6 +17,5 @@ export default function VideoSectionBG({ src, poster }) {
         <source src={ src } type="video/mp4" />
       </video>
     </div>
-
   )
 }
