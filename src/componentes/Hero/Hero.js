@@ -1,8 +1,4 @@
 import Content from '../../data/Content';
-
-// import './Route.css'
-// import ShareButton from '../ShareButton/ShareButton';
-
 import styles from './Hero.module.css'
 
 const parse = require('html-react-parser');

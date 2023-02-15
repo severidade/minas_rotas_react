@@ -2,11 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@1,700&display=swap');
 
 body {
-  --dark_collor: #00323F;
 
   /*Primaria*/
   --cor_primaria:  #00323F;
   --cor_primaria_light: #335b6a;
+  --cor_primaria_extraLight: #00AFDB;
   --cor_primaria_dark: #000b19;
 
    /*Secundária*/
@@ -29,7 +29,7 @@ body {
   --largura_conteiner_principal_grande: 75%;
 
   font-family: 'Titillium Web', sans-serif;
-  color: var(--dark_collor);
+  color: var(--cor_primaria);
 }
 
 h1 {

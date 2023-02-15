@@ -1,6 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;700&family=Volkhov:ital,wght@1,700&family=Work+Sans:wght@200;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@1,700&display=swap');
-
 .hero {
   --inner_grid_column: repeat(3, 1fr);
   --colum_gap: 20px;
@@ -66,10 +63,6 @@
   object-fit: cover;
 }
 
-/* .container_main_image > figcaption {
-  display: none;
-} */
-
 /* seção com informações da rota */
 .data_rote {
   /* background-color: blue; */
@@ -88,7 +81,7 @@
   content: "";
   width: calc(100% + 40px);
   height: 100%;
-  background-color: #CC7C53;
+  background-color: var(--cor_complementar_03);
   position: absolute;
   left: -20px;
 }
@@ -249,7 +242,6 @@
 }
 
 .group > p {
-  /* background-color: #00323F; */
   text-align: center;
   padding: 5px 0 10px;
   font-size: 14px;
@@ -270,7 +262,7 @@
   position: relative;
   border-radius: 6px;
   overflow: hidden;
-  border: solid 1px #00323F;
+  border: solid 1px var(--cor_primaria);
   -webkit-box-shadow: 2px 2px 5px -1px rgba(0,0,3,0.68);
   -moz-box-shadow: 2px 2px 5px -1px rgba(0,0,3,0.68);
   box-shadow: 2px 2px 5px -1px rgba(0,0,3,0.68);
@@ -283,7 +275,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color:#00AFDB;
+  background-color: var(--cor_primaria_extraLight);
   mix-blend-mode: soft-light;
   opacity: 0.7;
   transition: 0.3s;
