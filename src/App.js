@@ -4,8 +4,8 @@ import './App.css';
 import Carousel from './componentes/Carousel/Carousel';
 import Route from './componentes/Route/Route';
 import Hero from './componentes/Hero/Hero';
-import Rates from './componentes/Rates/Rates';
-import CallToAction from './componentes/CallToAction/CallToAction';
+import ValuesSection from './componentes/ValuesSection/ValuesSection';
+import CtaSection from './componentes/CtaSection/CtaSection';
 import VideoSection from './componentes/VideoSection/VideoSection';
 
 function App() {
@@ -14,8 +14,8 @@ function App() {
       <Hero />
       <Carousel />
       <Route />
-      <Rates />
-      <CallToAction />
+      <ValuesSection />
+      <CtaSection />
       <VideoSection />
     </div>
   );
