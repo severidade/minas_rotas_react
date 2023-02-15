@@ -23,7 +23,7 @@
   font-style: italic;
   font-size: 40px;
   color: #fff;
-  text-shadow: 1px 1px 5px var(--dark_collor);
+  text-shadow: 1px 1px 5px var(--cor_primaria);
   line-height: 1.1;
   letter-spacing: 1px;
 }

@@ -23,3 +23,9 @@
 .email_button {
   background-image: url("./img/icon_email.svg");
 }
+
+@media screen and (min-width: 480px) {
+  .whatsapp_button{
+    display: none;
+  }
+}

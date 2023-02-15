@@ -4,13 +4,29 @@ import styles from './Hero.module.css'
 const parse = require('html-react-parser');
 
 export default function Hero() {
+  const {
+    hero,
+    container_logo,
+    logo,
+    container_main_image,
+    data_rote,
+    heder_data_rote,
+    type_of_route,
+    level,
+    icon_type_of_route,
+    contanier_data_rote,
+    details,
+    group,
+    container_participants,
+    avatar
+  } = styles
   return (
-    <section className={ styles.hero }>
-      <div className={ styles.container_logo }>
-        <h1 className={ styles.logo }> Pedalando em Minas </h1>
+    <section className={ hero }>
+      <div className={ container_logo }>
+        <h1 className={ logo }> Pedalando em Minas </h1>
       </div>
 
-      <figure className={styles.container_main_image }>
+      <figure className={ container_main_image }>
         <img
           src={ Content.hero.route_img.img } 
           alt={ Content.hero.route_img.alt }
@@ -18,22 +34,22 @@ export default function Hero() {
         {/* <figcaption><strong>Cidades</strong> Corinto/Diamantina</figcaption> */}
       </figure>
 
-      <div className={ styles.data_rote }>
-        <div class={ styles.heder_data_rote }>
-          <h2 class={ styles.type_of_route }>
-            { Content.hero.heder_data_route.type_of_route }
+      <div className={ data_rote }>
+        <div class={ heder_data_rote }>
+          <h2 class={ type_of_route }>
+            { Content.hero.heder_data_route.typeof}
           </h2>
-          <p className={ styles.level }> 
+          <p className={ level }> 
             { Content.hero.heder_data_route.level }
           </p>
-          <figure className={ styles.icon_type_of_route }>
+          <figure className={ icon_type_of_route }>
             <img
               src={ Content.hero.heder_data_route.type_of_route_icon } 
               alt="Ícone para ciclismo de estrada"
             />
           </figure>
         </div>
-        <ul className= { styles.contanier_data_rote }>
+        <ul className= { contanier_data_rote }>
           {Content.hero.route_data?.map((item) =>(
             <li 
               key={item.tooltip}
@@ -46,19 +62,19 @@ export default function Hero() {
         </ul>
       </div>
 
-      <div className={ styles.details } >
+      <div className={ details } >
         <h2> { Content.hero.route_title } </h2>
         <h3> sobre o passeio </h3>
         <p> {parse(Content.hero.about)} </p>
       </div>
 
-      <div className={ styles.group }>
+      <div className={ group }>
         <h3>Participantes confirmados</h3>
-        <div className={ styles.container_participants }>
+        <div className={ container_participants }>
           {Content.hero.participants?.map((item) =>(
             <div key={item.name}>
               <figure 
-              className= { styles.avatar }
+              className= { avatar }
               >
                 <img src={ item.avatar } alt={ item.name }/>
               </figure>
