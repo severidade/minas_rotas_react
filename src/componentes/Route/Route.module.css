@@ -1,20 +1,21 @@
 .container_route {
   min-height: 10vh;
-  padding: 64px 10vw 20px 10vw;
+  padding: 60px 0 0 0;
+  width: var(--largura_conteiner_principal_mobile);
   margin: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background: #e6e0ba;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 
 .container_route_text,
 .container_map,
 .container_share  {
-  width: 80vw;
+  width: 100%;
 }
 
 .container_route_text {

@@ -1,16 +1,13 @@
 .container_VideoSection {
-  width: 100%;
+  max-width: 100%;
+  width: 100vw;
   height: 440px;
   position: relative;
   overflow: hidden;
-  background-color: aqua;
 }
-
-
 
 .container__highlight {
   width: var(--largura_conteiner_principal_mobile);
-  /* border: solid black; */
   min-height: 10vh;
   height: 100%;
   display: flex;
@@ -26,9 +23,7 @@
   font-style: italic;
   font-size: 40px;
   color: #fff;
-  /* z-index: 2; */
-  /* position: relative; */
-  text-shadow: 1px 1px 5px black;
+  text-shadow: 1px 1px 5px var(--dark_collor);
   line-height: 1.1;
   letter-spacing: 1px;
 }
