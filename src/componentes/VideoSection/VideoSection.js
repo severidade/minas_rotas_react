@@ -1,8 +1,6 @@
-import React from "react";
-
 import styles from './VideoSection.module.css';
 import Content from '../../data/Content';
-import VideoSectionBG from "../VideoSectionBg/VideoSectionBg";
+import VideoBG from "../VideoBG/VideoBG";
 
 export default function VideoSection() {
   const {
@@ -11,11 +9,17 @@ export default function VideoSection() {
     highlight__phrase
   } = styles;
 
+  const {
+    videoBg,
+    videoFrame,
+    phrase
+  } = Content.videoSection;
+
   return (
     <section className={ container_VideoSection }>
-      <VideoSectionBG src={ Content.videoSection.videoBg } poster= { Content.videoSection.videoFrame }/>
+      <VideoBG src={ videoBg } poster= { videoFrame }/>
       <div className= { container__highlight }>
-        <p className={ highlight__phrase }> { Content.videoSection.phrase }</p>
+        <p className={ highlight__phrase }> { phrase }</p>
       </div>
     </section>
   )

@@ -1,8 +1,6 @@
-import React from "react";
+import styles from './VideoBG.module.css';
 
-import styles from './VideoSectionBg.module.css';
-
-export default function VideoSectionBG({ src, poster }) {
+export default function VideoBG({ src, poster }) {
   const { container_VideoSection, VideoBg } = styles;
   return (
     <div className= { container_VideoSection }>

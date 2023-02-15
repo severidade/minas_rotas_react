@@ -2,20 +2,20 @@ import './Reset.css';
 import './App.css';
 
 import Carousel from './componentes/Carousel/Carousel';
-import Route from './componentes/Route/Route';
-import Hero from './componentes/Hero/Hero';
-import Rates from './componentes/Rates/Rates';
-import CallToAction from './componentes/CallToAction/CallToAction';
+import MapSection from './componentes/MapSection/MapSection';
+import HeroSection from './componentes/HeroSection/HeroSection';
+import ValuesSection from './componentes/ValuesSection/ValuesSection';
+import CtaSection from './componentes/CtaSection/CtaSection';
 import VideoSection from './componentes/VideoSection/VideoSection';
 
 function App() {
   return (
     <div className="App">
-      <Hero />
+      <HeroSection />
       <Carousel />
-      <Route />
-      <Rates />
-      <CallToAction />
+      <MapSection />
+      <ValuesSection />
+      <CtaSection />
       <VideoSection />
     </div>
   );

@@ -29,7 +29,7 @@ const Completo = {
     route_title: "Cachoeira do Santo Antônio",
   
     heder_data_route:{
-      type_of_route: "Ciclismo de estrada",
+      typeof: "Ciclismo de estrada",
       type_of_route_icon: Hero_icon,
       level: "Nível iniciante"
     },

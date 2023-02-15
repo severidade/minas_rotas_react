@@ -1,5 +1,4 @@
 .container_CTA{
-  /* background-color: tomato; */
   width: var(--largura_conteiner_principal_mobile);
   margin: auto;
   display: flex;

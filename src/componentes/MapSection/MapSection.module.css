@@ -1,12 +1,15 @@
 .container_route {
   min-height: 10vh;
-  padding: 64px 10vw 20px 10vw;
+  width: 100vw;
+  max-width: 100%;
+  padding: 60px 0 0 0;
+  
   margin: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: #e6e0ba;
+  background: var(--cor_complementar_01);
   overflow: hidden;
 }
 
@@ -14,7 +17,7 @@
 .container_route_text,
 .container_map,
 .container_share  {
-  width: 80vw;
+  width: var(--largura_conteiner_principal_mobile);
 }
 
 .container_route_text {
@@ -24,11 +27,6 @@
 
 .container_map {
   height: 500px;
-  width: 100%;
-}
-
-.container_map > div {
-  display: none;
 }
 
 .container_map::before {
@@ -39,25 +37,22 @@
   background: #fff;
   bottom: 0;
   left: 0;
-  /* z-index: -1; */
   transform: translate(-25%, 50%);
 }
 
 .container_share {
-  display: flex;
   background-color: black;
-  align-self: flex-end ;
+  height: 50px;
+  display: flex;
   height: 50px;
   align-items: center;
   justify-content: flex-end;
   gap: 10px;
   padding: 0 20px;
-  width: 100%;
   position: relative;
 }
 
 .container_share > h3 {
-  /* background-color: olive; */
   line-height: 100%;
   justify-self: start;
   text-transform: uppercase;

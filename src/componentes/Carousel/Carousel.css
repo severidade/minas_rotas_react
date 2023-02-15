@@ -61,7 +61,7 @@
 .posicao_item {
   font-family: 'Volkhov', serif;
   position: absolute;
-  color: #e6e0ba;
+  color: var(--cor_complementar_01);
   font-size: 80px;
   top: -6px;
   right: 40px;
@@ -92,7 +92,7 @@
   content: "";
   height: 0.5em;
   width: 0.5em;
-  background-color: #ef6c00;
+  background-color: var(--cor_secundaria);
   position: absolute;
   margin-left: -0.9em;
   border-radius: 50%;
