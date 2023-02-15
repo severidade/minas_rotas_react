@@ -2,7 +2,7 @@ import './Reset.css';
 import './App.css';
 
 import Carousel from './componentes/Carousel/Carousel';
-import Route from './componentes/Route/Route';
+import MapSection from './componentes/MapSection/MapSection';
 import Hero from './componentes/Hero/Hero';
 import ValuesSection from './componentes/ValuesSection/ValuesSection';
 import CtaSection from './componentes/CtaSection/CtaSection';
@@ -13,7 +13,7 @@ function App() {
     <div className="App">
       <Hero />
       <Carousel />
-      <Route />
+      <MapSection />
       <ValuesSection />
       <CtaSection />
       <VideoSection />
