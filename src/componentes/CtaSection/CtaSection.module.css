@@ -32,3 +32,19 @@
 .btn_CTA:hover {
   background-color: var(--cor_primaria);
 }
+
+@media screen and (min-width: 560px) {
+
+}
+
+@media screen and (min-width: 830px) {
+  .container_CTA {
+    width: var(--largura_conteiner_principal);
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .container_CTA {
+    width: var(--largura_conteiner_principal_grande);
+  }
+}
