@@ -20,13 +20,14 @@ body {
    --cor_complementar_03: #CC7C53;
 
    /*grid*/
+   --grid_2colunas_UmaColuna: calc(100% * 1/2);
    --grid_3colunas_UmaColuna: calc(100% * 1/3);
    --grid_3colunas_DuasColunas: calc(100% * 2/3);
 
   /*tamanho */
   --largura_conteiner_principal_mobile: 80%;
-  --largura_conteiner_principal: 90%;
-  --largura_conteiner_principal_grande: 75%;
+  --largura_conteiner_principal: 75%;
+  --largura_conteiner_principal_grande: 60%;
 
   font-family: 'Titillium Web', sans-serif;
   color: var(--cor_primaria);
