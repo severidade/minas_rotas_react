@@ -18,6 +18,7 @@ export default function Hero() {
     details,
     group,
     container_participants,
+    participant,
     avatar
   } = styles
   return (
@@ -72,7 +73,7 @@ export default function Hero() {
         <h3>Participantes confirmados</h3>
         <div className={ container_participants }>
           {Content.hero.participants?.map((item) =>(
-            <div key={item.name}>
+            <div key={item.name} className={ participant }>
               <figure 
               className= { avatar }
               >

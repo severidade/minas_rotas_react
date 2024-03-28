@@ -31,9 +31,9 @@
   --grid_3colunas_DuasColunas: calc(100% * 2/3);
 
  /*tamanho */
- --largura_conteiner_principal_mobile: 80%;
- --largura_conteiner_principal: 90%;
- --largura_conteiner_principal_grande: 60%;
+ --largura_conteiner_principal_mobile: 80vw;
+ --largura_conteiner_principal: 90vw;
+ --largura_conteiner_principal_grande: 60vw;
 }
 
 

@@ -63,7 +63,7 @@ const Completo = {
         data: "684 m",
       },
     ],
-    about:"Esta rota é uma opção perfeita para aqueles que procuram aventura e contato com a natureza. Percorrendo trilhas de terra e estradas rurais, os ciclistas podem desfrutar de paisagens incríveis e desafiantes.",
+    about:"<p>Esta rota é uma opção perfeita para aqueles que procuram aventura e contato com a natureza. Percorrendo trilhas de terra e estradas rurais, os ciclistas podem desfrutar de paisagens incríveis e desafiantes.</p><p>O passeio é uma oportunidade única de interação com a comunidade. Os viajantes podem fazer paradas em vilarejos pitorescos ao longo do caminho, experimentando a culinária local e conversando com moradores para aprender mais sobre a cultura e o modo de vida da região.</p> <p>A interação com as pessoas enriquece ainda mais a experiência de ciclismo e ajudar a promover um turismo mais sustentável e responsável. A rota, portanto, não só proporciona uma aventura esportiva, mas também uma oportunidade de mergulhar na cultura e na história das áreas rurais.</p>",
     participants: [
       {
         name: "João Silva",
