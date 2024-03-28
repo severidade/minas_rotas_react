@@ -4,11 +4,22 @@
   padding-top: 40px;
 }
 
+.basic_plan {
+  display: flex;
+  flex-direction: column;
+}
+
 .rates_container__options {
   width: 100%;
   padding-bottom: 10px;
   border-bottom: 1px dotted var(--cor_primaria);
   padding-top: 40px;
+}
+
+.container_options{
+  /* background-color: violet; */
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .option {
@@ -43,4 +54,40 @@
   object-fit: contain;
   width: 80%;
   height: 80%;
+}
+
+@media screen and (min-width: 560px) {
+  .option{
+    width: var(--grid_2colunas_UmaColuna);
+  }
+}
+
+@media screen and (min-width: 830px) {
+  .rates_container{
+    width: var(--largura_conteiner_principal);
+  }
+
+  .basic_plan{
+    flex-direction: row;
+  }
+
+  .basic_plan > p {
+    /* background-color: rgb(205, 42, 42); */
+    width: var(--grid_3colunas_DuasColunas);
+  }
+
+  .basic_plan_numericValue { 
+    /* border: solid 1px; */
+    width: var(--grid_3colunas_UmaColuna);
+  }
+  .option{
+    width: var(--grid_3colunas_UmaColuna);
+    
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .rates_container{
+    width: var(--largura_conteiner_principal_grande);
+  }
 }

@@ -11,7 +11,6 @@
   column-gap: var(--colum_gap);
   padding: 30px 20px 0 20px;
   overflow: hidden;
-  /* background-color: tomato; */
 }
 
 .hero::before {
@@ -44,6 +43,7 @@
   text-indent: -1000px;
   height: 180px;
   width: 100px;
+  overflow: hidden;
 }
 
 /* imagem de destaque */
@@ -224,7 +224,6 @@
 /* seçao grupo*/
 
 .group {
-  /* background-color: aqua; */
   grid-column: 1 / 4;
   grid-row: 7 / 9;
   padding: 20px 0;
@@ -253,6 +252,12 @@
   margin: auto;
 }
 
+.participant {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
 .container_participants .avatar {
   width: 70px;
   height: 70px;
@@ -310,4 +315,82 @@
   font-size: 13px;
   line-height: 14px;
   padding: 10px 0 10px 7px;
+}
+
+@media screen and (min-width: 900px) {
+  .hero{
+    grid-template-columns: repeat(9, 1fr);
+    padding: 0 5vw;
+  }
+
+  .container_main_image {
+    grid-column: 1 / 7;
+    width: calc(100% + 5vw);
+    transform: translate(-5vw);
+  }
+
+  .container_logo {
+    height: 200px;
+    grid-column: 7 / 10;
+  }
+
+  .hero::before {
+    content: "";
+    height: 40vh;
+    /* width: 100vw;
+    height: 230px;
+    background: url(./img/bg_nivel.svg);
+    position: absolute;
+    background-size: cover;
+    left: 0;
+    top: 0;
+    z-index: -1; */
+  }
+  
+  /* imagem de destaque */
+  .container_main_image {
+    height: 50vh;
+  }
+
+  .data_rote {
+    grid-column: 6 / 10;
+  }
+
+  .data_rote::before {
+    content: "";
+    width: 100vw;
+  }
+
+  .data_rote > .heder_data_rote {
+    /* background-color: olive; */
+    grid-column: 2 / 4;
+  }
+
+  .data_rote > .contanier_data_rote {
+    grid-column: 2 / 4;
+  }
+
+  .details {
+    grid-column: 1 / 5;
+    grid-row: 4 / 6;
+    /* background-color: olive; */
+  }
+
+  .group {
+    grid-column: 7 / 10;
+    grid-row: 5 / 6;
+    padding: 20px 0;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .hero{
+    padding: 0 20vw;
+  }
+
+  .container_main_image {
+    grid-column: 1 / 7;
+    width: calc(100% + 20vw);
+    transform: translate(-20vw);
+  }
 }

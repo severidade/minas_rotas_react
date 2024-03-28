@@ -7,6 +7,7 @@ const parse = require('html-react-parser');
 export default function Route() {
   const {
     container_route,
+    content_route,
     container_route_text,
     container_map,
     container_share,
@@ -25,14 +26,16 @@ export default function Route() {
         <h2>{parse(title)}</h2>
         <p>{parse(text)}</p>
       </div>
-      <div className={container_map}>
-        {parse(map)}
-      </div>
-      <div className={container_share}>
-        <h3>Compartilhe</h3>
-        <ShareButton shareType={"whatsapp"} link={share} />
-        <ShareButton shareType={"email"} link={share} />
-        <ShareButton shareType={"wikiloc"} link={share} />
+      <div className={ content_route }>
+        <div className={container_map}>
+          {parse(map)}
+        </div>
+        <div className={container_share}>
+          <h3>Compartilhe</h3>
+          <ShareButton shareType={"whatsapp"} link={share} />
+          <ShareButton shareType={"email"} link={share} />
+          <ShareButton shareType={"wikiloc"} link={share} />
+        </div>
       </div>
     </section>
 	)
